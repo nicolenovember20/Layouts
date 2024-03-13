@@ -15,7 +15,7 @@ main{
     margin-right: 20;
 }
 aside{
-    float: left;
+    float: right;
     width: 45%;
     height: 100vh;
 }
