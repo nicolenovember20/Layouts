@@ -1,25 +1,23 @@
 .borderLine{
     border: 1px solid maroon;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 header{
+    
     width: 100%;
     height: 100px;
 }
 
-
 main{
-    width: 56%;
+    width:50%;
     height: 100vh;
     float: left;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-right: 20;
 }
-
 aside{
     float: left;
-    width: 20%;
+    width: 45%;
     height: 100vh;
 }
 
