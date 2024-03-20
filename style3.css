@@ -1,29 +1,40 @@
-.borderLine{
-    border: 1px solid maroon;
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.borderline {
+    border: 1px solid skyblue;
     margin-top: 10px;
+    box-sizing: border-box;
 }
 
-header{
-    width: 100%;
+header, nav, aside, main, footer {
+    padding: 10px;
+}
+
+header, footer {
     height: 100px;
 }
 
-main{
-    width: 57%;
-    height: 100vh;
-    float: left;
-    margin-left: 10;
-    margin-right: 10;
-}
-
-aside{
-    float: left;
+nav, aside {
     width: 20%;
-    height: 100vh;
+    height: calc(100vh - 220px);
+    float: left;
 }
 
-footer{
-    width: 100%;
-    height: 100px;
+main {
+    width: 57%;
+    height: calc(100vh - 220px);
     float: left;
+}
+
+@media (max-width: 768px) {
+    nav, aside {
+        width: 100%;
+        float: none;
+    }
+    main {
+        width: 100%;
+    }
 }
