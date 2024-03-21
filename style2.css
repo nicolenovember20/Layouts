@@ -6,64 +6,37 @@
   }
   
   .container {
-    padding: 10px;
-    margin: 10px;
-    flex: 1 100%;
+    margin: 5px;
+    flex: 1%;
     border-radius: 10px;
   }
   
   header {
-    background: greenyellow;
+    background: darkmagenta;
     height: 120px;
   }
   
   nav {
-    background: yellow;
+    background: violet;
     height: 80px;
   }
   
   main {
-    background: yellowgreen;
-    float: left;
-    width: 30%;
-    height: 300px;
-    padding: 40px;
+    background: pink;
+    float: right;
+    width: 49.8%;
+    height: 500px;
   }
 
   aside {
-    background: yellowgreen;
+    background: pink;
     float: left;
-    width: 30%;
+    width: 49.8%;
+    height: 500px;
   }
   
   footer {
-    background: lightgreen;
-    float: left;
+    background: purple;
     height: 80px;
-  }
-  
-
-  
-  @media all and (min-width: 800px) {
-    main {
-      flex: 2;
-    }
-  
-    aside {
-      order: 2;
-    }
-  
-    main{
-        order: 1;
-    }
-  
-    .footer {
-      order: 4;
-    }
-  }
-  
-  @media all and (min-width: 600px) {
-    aside { 
-        flex: 1;
-    }
+    width: 100%;
   }

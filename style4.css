@@ -1,8 +1,8 @@
 .borderLine{
     border: 1px solid skyblue;
     margin-top: 10px;
-
 }
+
 .container { 
     display: flex;
     flex-wrap: wrap;
@@ -13,40 +13,53 @@ header, nav, main, aside, section, article, footer {
     margin: 5px; 
 }
 
-header{    
-    width: 100%;
+header{
+    background-color: blue;
+    width: 97%;
     height: 100px;
 }
 
+nav{
+    background-color: lightblue;
+    width: 97%;
+    height: 75px;
+}
+
 main{
-    width: 40%;
+    background-color: lightgrey;
+    width: 45%;
     height: 100vh;
     float: left;
 }
 
 aside{
+    background-color: lightgray;
     float: left;
-    width: 15%;
+    width: 25%;
     height: 45vh;
 }
 
 section{
+    background-color: lightgray;
     float: left;
-    width: 28%;
+    width: 25%;
     height: 45vh;
 }
 
 article{
+    background-color: lightgray;
     float: left;
-    width: 45%;
+    width: 51%;
     height: 53vh;
 }
 
 footer{
-    width: 100%;
+    background-color: aqua;
+    width: 97%;
     height: 100px;
     float: left;
 }
+
 @media (max-width: 768px) {
     aside, section, article {
         flex: 1 100%;
